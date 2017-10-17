@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CDEBBE71F95E2E9004B6137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBBE61F95E2E9004B6137 /* AppDelegate.swift */; };
+		2CDEBBE91F95E2E9004B6137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBBE81F95E2E9004B6137 /* ViewController.swift */; };
+		2CDEBBEC1F95E2E9004B6137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEBBEA1F95E2E9004B6137 /* Main.storyboard */; };
+		2CDEBBEE1F95E2E9004B6137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEBBED1F95E2E9004B6137 /* Assets.xcassets */; };
+		2CDEBBF11F95E2E9004B6137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEBBEF1F95E2E9004B6137 /* LaunchScreen.storyboard */; };
+		2CDEBBFC1F95E2E9004B6137 /* AHRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBBFB1F95E2E9004B6137 /* AHRouterTests.swift */; };
+		2CDEBC071F95E2E9004B6137 /* AHRouterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC061F95E2E9004B6137 /* AHRouterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CDEBBF81F95E2E9004B6137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CDEBBDB1F95E2E9004B6137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CDEBBE21F95E2E9004B6137;
+			remoteInfo = AHRouter;
+		};
+		2CDEBC031F95E2E9004B6137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CDEBBDB1F95E2E9004B6137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CDEBBE21F95E2E9004B6137;
+			remoteInfo = AHRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CDEBBE31F95E2E9004B6137 /* AHRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDEBBE61F95E2E9004B6137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CDEBBE81F95E2E9004B6137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CDEBBEB1F95E2E9004B6137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CDEBBED1F95E2E9004B6137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CDEBBF01F95E2E9004B6137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CDEBBF21F95E2E9004B6137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CDEBBF71F95E2E9004B6137 /* AHRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDEBBFB1F95E2E9004B6137 /* AHRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouterTests.swift; sourceTree = "<group>"; };
+		2CDEBBFD1F95E2E9004B6137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CDEBC021F95E2E9004B6137 /* AHRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDEBC061F95E2E9004B6137 /* AHRouterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouterUITests.swift; sourceTree = "<group>"; };
+		2CDEBC081F95E2E9004B6137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CDEBBE01F95E2E9004B6137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDEBBF41F95E2E9004B6137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDEBBFF1F95E2E9004B6137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CDEBBDA1F95E2E9004B6137 = {
+			isa = PBXGroup;
+			children = (
+				2CDEBBE51F95E2E9004B6137 /* AHRouter */,
+				2CDEBBFA1F95E2E9004B6137 /* AHRouterTests */,
+				2CDEBC051F95E2E9004B6137 /* AHRouterUITests */,
+				2CDEBBE41F95E2E9004B6137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CDEBBE41F95E2E9004B6137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CDEBBE31F95E2E9004B6137 /* AHRouter.app */,
+				2CDEBBF71F95E2E9004B6137 /* AHRouterTests.xctest */,
+				2CDEBC021F95E2E9004B6137 /* AHRouterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CDEBBE51F95E2E9004B6137 /* AHRouter */ = {
+			isa = PBXGroup;
+			children = (
+				2CDEBBE61F95E2E9004B6137 /* AppDelegate.swift */,
+				2CDEBBE81F95E2E9004B6137 /* ViewController.swift */,
+				2CDEBBEA1F95E2E9004B6137 /* Main.storyboard */,
+				2CDEBBED1F95E2E9004B6137 /* Assets.xcassets */,
+				2CDEBBEF1F95E2E9004B6137 /* LaunchScreen.storyboard */,
+				2CDEBBF21F95E2E9004B6137 /* Info.plist */,
+			);
+			path = AHRouter;
+			sourceTree = "<group>";
+		};
+		2CDEBBFA1F95E2E9004B6137 /* AHRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CDEBBFB1F95E2E9004B6137 /* AHRouterTests.swift */,
+				2CDEBBFD1F95E2E9004B6137 /* Info.plist */,
+			);
+			path = AHRouterTests;
+			sourceTree = "<group>";
+		};
+		2CDEBC051F95E2E9004B6137 /* AHRouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CDEBC061F95E2E9004B6137 /* AHRouterUITests.swift */,
+				2CDEBC081F95E2E9004B6137 /* Info.plist */,
+			);
+			path = AHRouterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CDEBBE21F95E2E9004B6137 /* AHRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CDEBC0B1F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouter" */;
+			buildPhases = (
+				2CDEBBDF1F95E2E9004B6137 /* Sources */,
+				2CDEBBE01F95E2E9004B6137 /* Frameworks */,
+				2CDEBBE11F95E2E9004B6137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHRouter;
+			productName = AHRouter;
+			productReference = 2CDEBBE31F95E2E9004B6137 /* AHRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CDEBBF61F95E2E9004B6137 /* AHRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CDEBC0E1F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouterTests" */;
+			buildPhases = (
+				2CDEBBF31F95E2E9004B6137 /* Sources */,
+				2CDEBBF41F95E2E9004B6137 /* Frameworks */,
+				2CDEBBF51F95E2E9004B6137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CDEBBF91F95E2E9004B6137 /* PBXTargetDependency */,
+			);
+			name = AHRouterTests;
+			productName = AHRouterTests;
+			productReference = 2CDEBBF71F95E2E9004B6137 /* AHRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CDEBC011F95E2E9004B6137 /* AHRouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CDEBC111F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouterUITests" */;
+			buildPhases = (
+				2CDEBBFE1F95E2E9004B6137 /* Sources */,
+				2CDEBBFF1F95E2E9004B6137 /* Frameworks */,
+				2CDEBC001F95E2E9004B6137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CDEBC041F95E2E9004B6137 /* PBXTargetDependency */,
+			);
+			name = AHRouterUITests;
+			productName = AHRouterUITests;
+			productReference = 2CDEBC021F95E2E9004B6137 /* AHRouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CDEBBDB1F95E2E9004B6137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = IvanGao;
+				TargetAttributes = {
+					2CDEBBE21F95E2E9004B6137 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					2CDEBBF61F95E2E9004B6137 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CDEBBE21F95E2E9004B6137;
+					};
+					2CDEBC011F95E2E9004B6137 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2CDEBBE21F95E2E9004B6137;
+					};
+				};
+			};
+			buildConfigurationList = 2CDEBBDE1F95E2E9004B6137 /* Build configuration list for PBXProject "AHRouter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CDEBBDA1F95E2E9004B6137;
+			productRefGroup = 2CDEBBE41F95E2E9004B6137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CDEBBE21F95E2E9004B6137 /* AHRouter */,
+				2CDEBBF61F95E2E9004B6137 /* AHRouterTests */,
+				2CDEBC011F95E2E9004B6137 /* AHRouterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CDEBBE11F95E2E9004B6137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDEBBF11F95E2E9004B6137 /* LaunchScreen.storyboard in Resources */,
+				2CDEBBEE1F95E2E9004B6137 /* Assets.xcassets in Resources */,
+				2CDEBBEC1F95E2E9004B6137 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDEBBF51F95E2E9004B6137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDEBC001F95E2E9004B6137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CDEBBDF1F95E2E9004B6137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDEBBE91F95E2E9004B6137 /* ViewController.swift in Sources */,
+				2CDEBBE71F95E2E9004B6137 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDEBBF31F95E2E9004B6137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDEBBFC1F95E2E9004B6137 /* AHRouterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CDEBBFE1F95E2E9004B6137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDEBC071F95E2E9004B6137 /* AHRouterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CDEBBF91F95E2E9004B6137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CDEBBE21F95E2E9004B6137 /* AHRouter */;
+			targetProxy = 2CDEBBF81F95E2E9004B6137 /* PBXContainerItemProxy */;
+		};
+		2CDEBC041F95E2E9004B6137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CDEBBE21F95E2E9004B6137 /* AHRouter */;
+			targetProxy = 2CDEBC031F95E2E9004B6137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CDEBBEA1F95E2E9004B6137 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CDEBBEB1F95E2E9004B6137 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CDEBBEF1F95E2E9004B6137 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CDEBBF01F95E2E9004B6137 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CDEBC091F95E2E9004B6137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CDEBC0A1F95E2E9004B6137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CDEBC0C1F95E2E9004B6137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6ES64VS29;
+				INFOPLIST_FILE = AHRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ivan.AHRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CDEBC0D1F95E2E9004B6137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6ES64VS29;
+				INFOPLIST_FILE = AHRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ivan.AHRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CDEBC0F1F95E2E9004B6137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6ES64VS29;
+				INFOPLIST_FILE = AHRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ivan.AHRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHRouter.app/AHRouter";
+			};
+			name = Debug;
+		};
+		2CDEBC101F95E2E9004B6137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6ES64VS29;
+				INFOPLIST_FILE = AHRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ivan.AHRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHRouter.app/AHRouter";
+			};
+			name = Release;
+		};
+		2CDEBC121F95E2E9004B6137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6ES64VS29;
+				INFOPLIST_FILE = AHRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ivan.AHRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AHRouter;
+			};
+			name = Debug;
+		};
+		2CDEBC131F95E2E9004B6137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6ES64VS29;
+				INFOPLIST_FILE = AHRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ivan.AHRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AHRouter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CDEBBDE1F95E2E9004B6137 /* Build configuration list for PBXProject "AHRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDEBC091F95E2E9004B6137 /* Debug */,
+				2CDEBC0A1F95E2E9004B6137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CDEBC0B1F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDEBC0C1F95E2E9004B6137 /* Debug */,
+				2CDEBC0D1F95E2E9004B6137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CDEBC0E1F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDEBC0F1F95E2E9004B6137 /* Debug */,
+				2CDEBC101F95E2E9004B6137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CDEBC111F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CDEBC121F95E2E9004B6137 /* Debug */,
+				2CDEBC131F95E2E9004B6137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CDEBBDB1F95E2E9004B6137 /* Project object */;
+}
