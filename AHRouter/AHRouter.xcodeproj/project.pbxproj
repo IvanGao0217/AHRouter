@@ -14,6 +14,11 @@
 		2CDEBBF11F95E2E9004B6137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEBBEF1F95E2E9004B6137 /* LaunchScreen.storyboard */; };
 		2CDEBBFC1F95E2E9004B6137 /* AHRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBBFB1F95E2E9004B6137 /* AHRouterTests.swift */; };
 		2CDEBC071F95E2E9004B6137 /* AHRouterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC061F95E2E9004B6137 /* AHRouterUITests.swift */; };
+		2CDEBC151F95E32C004B6137 /* AHRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC141F95E32C004B6137 /* AHRouter.swift */; };
+		2CDEBC171F95E36C004B6137 /* AHRouterContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC161F95E36C004B6137 /* AHRouterContent.swift */; };
+		2CDEBC191F95E394004B6137 /* AHRouterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC181F95E394004B6137 /* AHRouterManager.swift */; };
+		2CDEBC1B1F95F530004B6137 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC1A1F95F530004B6137 /* extensions.swift */; };
+		2CDEBC1D1F960007004B6137 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC1C1F960007004B6137 /* BViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		2CDEBC021F95E2E9004B6137 /* AHRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDEBC061F95E2E9004B6137 /* AHRouterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouterUITests.swift; sourceTree = "<group>"; };
 		2CDEBC081F95E2E9004B6137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CDEBC141F95E32C004B6137 /* AHRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouter.swift; sourceTree = "<group>"; };
+		2CDEBC161F95E36C004B6137 /* AHRouterContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouterContent.swift; sourceTree = "<group>"; };
+		2CDEBC181F95E394004B6137 /* AHRouterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouterManager.swift; sourceTree = "<group>"; };
+		2CDEBC1A1F95F530004B6137 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		2CDEBC1C1F960007004B6137 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,11 @@
 			children = (
 				2CDEBBE61F95E2E9004B6137 /* AppDelegate.swift */,
 				2CDEBBE81F95E2E9004B6137 /* ViewController.swift */,
+				2CDEBC1C1F960007004B6137 /* BViewController.swift */,
+				2CDEBC1A1F95F530004B6137 /* extensions.swift */,
+				2CDEBC141F95E32C004B6137 /* AHRouter.swift */,
+				2CDEBC161F95E36C004B6137 /* AHRouterContent.swift */,
+				2CDEBC181F95E394004B6137 /* AHRouterManager.swift */,
 				2CDEBBEA1F95E2E9004B6137 /* Main.storyboard */,
 				2CDEBBED1F95E2E9004B6137 /* Assets.xcassets */,
 				2CDEBBEF1F95E2E9004B6137 /* LaunchScreen.storyboard */,
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CDEBC1D1F960007004B6137 /* BViewController.swift in Sources */,
+				2CDEBC191F95E394004B6137 /* AHRouterManager.swift in Sources */,
 				2CDEBBE91F95E2E9004B6137 /* ViewController.swift in Sources */,
+				2CDEBC171F95E36C004B6137 /* AHRouterContent.swift in Sources */,
+				2CDEBC151F95E32C004B6137 /* AHRouter.swift in Sources */,
 				2CDEBBE71F95E2E9004B6137 /* AppDelegate.swift in Sources */,
+				2CDEBC1B1F95F530004B6137 /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

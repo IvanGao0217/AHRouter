@@ -1,24 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9B1-6Y-nRG">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="UMg-BB-29W">
+            <objects>
+                <navigationController id="9B1-6Y-nRG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MP4-gn-Y4I">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="wDM-h2-pVQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0nM-Ju-lTd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-510" y="143"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="AViewController" customModule="AHRouter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dqo-kr-DdR">
+                                <rect key="frame" x="20" y="122" width="275" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0MN-fs-J9z">
+                                <rect key="frame" x="164" y="178" width="47" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Route!">
+                                    <color key="titleColor" red="0.94509803921568625" green="0.33725490196078434" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xw9-b6-izr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="commonUrl, click to copy!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWC-AJ-6JW">
+                                <rect key="frame" x="69.5" y="228" width="236.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" red="0.94509803921568625" green="0.33725490196078434" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iXN-Qv-ZLO">
+                                <rect key="frame" x="29" y="329" width="230" height="30"/>
+                                <state key="normal" title="wealoha://presentVC?targetVC=B">
+                                    <color key="titleColor" red="0.94509803921568625" green="0.33725490196078434" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="copyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4zP-gq-M2g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cj6-hh-TRB">
+                                <rect key="frame" x="29" y="375" width="202" height="30"/>
+                                <state key="normal" title="wealoha://bgColor?alpha=0.4">
+                                    <color key="titleColor" red="0.94509803921568625" green="0.33725490196078434" blue="0.49019607843137253" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="copyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ume-hE-cNC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6XQ-Bo-ksB">
+                                <rect key="frame" x="308" y="122" width="57" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <state key="normal" title="clean">
+                                    <color key="titleColor" red="0.94509803921568625" green="0.33725490196078434" blue="0.49019607843137253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cleanTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nZl-E0-s9J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87689887152777779" green="0.94924587673611116" blue="0.464111328125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dqo-kr-DdR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="58" id="6wT-cj-a1L"/>
+                            <constraint firstItem="6XQ-Bo-ksB" firstAttribute="leading" secondItem="dqo-kr-DdR" secondAttribute="trailing" constant="13" id="D8F-hQ-ZSK"/>
+                            <constraint firstItem="dqo-kr-DdR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E6S-Dx-a84"/>
+                            <constraint firstItem="mWC-AJ-6JW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="GGk-LR-dva"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6XQ-Bo-ksB" secondAttribute="trailing" constant="10" id="HOv-Ic-Hzl"/>
+                            <constraint firstItem="iXN-Qv-ZLO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="JBx-15-c7c"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="iXN-Qv-ZLO" secondAttribute="trailing" constant="20" symbolic="YES" id="SWb-yk-3Bh"/>
+                            <constraint firstItem="0MN-fs-J9z" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="TKd-et-jf8"/>
+                            <constraint firstItem="iXN-Qv-ZLO" firstAttribute="top" secondItem="mWC-AJ-6JW" secondAttribute="bottom" constant="77" id="TYw-zG-zT9"/>
+                            <constraint firstItem="Cj6-hh-TRB" firstAttribute="top" secondItem="iXN-Qv-ZLO" secondAttribute="bottom" constant="16" id="YfV-jK-ks7"/>
+                            <constraint firstItem="Cj6-hh-TRB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="d3L-hG-o3l"/>
+                            <constraint firstItem="6XQ-Bo-ksB" firstAttribute="top" secondItem="dqo-kr-DdR" secondAttribute="top" id="e5x-fq-hIv"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Cj6-hh-TRB" secondAttribute="trailing" constant="20" symbolic="YES" id="kBL-8K-0lL"/>
+                            <constraint firstItem="mWC-AJ-6JW" firstAttribute="top" secondItem="0MN-fs-J9z" secondAttribute="bottom" constant="20" id="mAZ-g0-Uyd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dqo-kr-DdR" secondAttribute="trailing" constant="80" id="xL0-xD-9x1"/>
+                            <constraint firstItem="0MN-fs-J9z" firstAttribute="top" secondItem="dqo-kr-DdR" secondAttribute="bottom" constant="26" id="zqA-fl-ORk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="amK-4b-65j"/>
+                    <connections>
+                        <outlet property="startRouteButton" destination="0MN-fs-J9z" id="8WX-SS-cYI"/>
+                        <outlet property="textField" destination="dqo-kr-DdR" id="QW7-IJ-FJG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HDf-mA-Mz0">
+            <objects>
+                <viewController storyboardIdentifier="BViewController" id="OOw-CD-bbf" customClass="BViewController" customModule="AHRouter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FkQ-cG-kgO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm BViewController" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ql9-5B-Pvh">
+                                <rect key="frame" x="69.5" y="327.5" width="236" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.33725490196078434" blue="0.49411764705882355" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ql9-5B-Pvh" firstAttribute="centerX" secondItem="9St-RX-HoE" secondAttribute="centerX" id="gRx-yy-ekX"/>
+                            <constraint firstItem="Ql9-5B-Pvh" firstAttribute="centerY" secondItem="9St-RX-HoE" secondAttribute="centerY" id="miz-FA-zA8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9St-RX-HoE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hrA-ih-yLP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="134"/>
         </scene>
     </scenes>
 </document>

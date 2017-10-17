@@ -8,18 +8,41 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var startRouteButton: UIButton!
+    
+    @IBAction func tapped(_ sender: Any) {
+        guard let str = self.textField.text else {
+            return
+        }
+        let handled = AHRouterManager.shouldHandled(urlStr: str)
+        print(handled)
+        self.textField.endEditing(true)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func copyTapped(_ sender: Any) {
+        guard let button = sender as? UIButton,
+        let title = button.titleLabel?.text else {
+            return
+        }
+        UIPasteboard.general.string = title
+        self.textField.text = title
     }
+    
+    @IBAction func cleanTapped(_ sender: Any) {
+        self.textField.text = nil
+    }
+}
 
-
+extension AViewController: Routable {
+    static func route(content: AHRouteContent) -> Bool {
+        if let alpha = content.queryDic["alpha"], let viewController = topViewController() {
+            viewController.view.backgroundColor = viewController.view.backgroundColor?.withAlphaComponent(CGFloat(truncating: NumberFormatter().number(from: alpha) ?? 1))
+            return true
+        }
+        return false
+    }
 }
 
