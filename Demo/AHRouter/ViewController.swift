@@ -36,13 +36,13 @@ class AViewController: UIViewController {
     }
 }
 
-extension AViewController: Routable {
-    static func route(content: AHRouteContent) -> Bool {
-        if let alpha = content.queryDic["alpha"], let viewController = topViewController() {
-            viewController.view.backgroundColor = viewController.view.backgroundColor?.withAlphaComponent(CGFloat(truncating: NumberFormatter().number(from: alpha) ?? 1))
-            return true
-        }
-        return false
-    }
-}
-
+//extension AViewController: Routable {
+//    static func route(content: AHRouteContent) -> Bool {
+//        if let alpha = content.queryDic["alpha"], let viewController = topViewController() {
+//            viewController.view.backgroundColor = viewController.view.backgroundColor?.withAlphaComponent(CGFloat(truncating: NumberFormatter().number(from: alpha) ?? 1))
+//            return true
+//        }
+//        return false
+//    }
+//}
+//

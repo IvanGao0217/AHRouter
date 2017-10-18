@@ -7,17 +7,18 @@
 //
 
 import Foundation
-//
-//class AHRouterManager {
-//    //App初始化时urlHost的注册
-//    static func startRegist() {
+
+class AHRouterManager {
+    //App初始化时urlHost的注册
+    static func startRegist() {
 //        AHRouterRegister<BViewController>.regist(.presentViewController)
 //        AHRouterRegister<AViewController>.regist(.changeBgColor)
-//    }
-//
-//    //处理url
-//    static func shouldHandled(urlStr: String) -> Bool {
-//        return AHRouter.shared.match(urlStr: urlStr)
-//    }
-//}
-//
+    }
+
+    //处理url
+    static func shouldHandled(urlStr: String) -> Bool {
+        return false
+    }
+}
+
+

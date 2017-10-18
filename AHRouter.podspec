@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
-  s.name = ‘AHRouter’
-  s.version = ‘1.0’
+  s.name = 'AHRouter'
+  s.version = '1.0'
   s.license = 'MIT'
-  s.summary = ‘A Simple Router in Swift'
+  s.summary = 'A Simple Router in Swift'
   s.homepage = 'https://github.com/IvanGao0217/AHRouter'
   s.social_media_url = 'https://github.com/IvanGao0217/AHRouter'
-  s.authors = ‘Ivan Gao’, { 'Ivan Gao' => ‘Ivangao0217@gmail.com’ }
+  s.authors = 'Ivan Gao', { 'Ivan Gao' => 'Ivangao0217@gmail.com' }
   s.source = { :git => 'https://github.com/IvanGao0217/AHRouter.git', :tag => s.version }
 
   s.ios.deployment_target = '8.0'
