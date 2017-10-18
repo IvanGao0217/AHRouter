@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C29B15A1F97123900E815C6 /* AHRouterRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C29B1591F97123900E815C6 /* AHRouterRegister.swift */; };
 		2CDEBBE71F95E2E9004B6137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBBE61F95E2E9004B6137 /* AppDelegate.swift */; };
 		2CDEBBE91F95E2E9004B6137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBBE81F95E2E9004B6137 /* ViewController.swift */; };
 		2CDEBBEC1F95E2E9004B6137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEBBEA1F95E2E9004B6137 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C29B1591F97123900E815C6 /* AHRouterRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouterRegister.swift; sourceTree = "<group>"; };
 		2CDEBBE31F95E2E9004B6137 /* AHRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDEBBE61F95E2E9004B6137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CDEBBE81F95E2E9004B6137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				2CDEBC141F95E32C004B6137 /* AHRouter.swift */,
 				2CDEBC161F95E36C004B6137 /* AHRouterContent.swift */,
 				2CDEBC181F95E394004B6137 /* AHRouterManager.swift */,
+				2C29B1591F97123900E815C6 /* AHRouterRegister.swift */,
 				2CDEBBEA1F95E2E9004B6137 /* Main.storyboard */,
 				2CDEBBED1F95E2E9004B6137 /* Assets.xcassets */,
 				2CDEBBEF1F95E2E9004B6137 /* LaunchScreen.storyboard */,
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C29B15A1F97123900E815C6 /* AHRouterRegister.swift in Sources */,
 				2CDEBC1D1F960007004B6137 /* BViewController.swift in Sources */,
 				2CDEBC191F95E394004B6137 /* AHRouterManager.swift in Sources */,
 				2CDEBBE91F95E2E9004B6137 /* ViewController.swift in Sources */,

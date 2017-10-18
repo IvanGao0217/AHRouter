@@ -8,20 +8,19 @@
 
 import Foundation
 
-struct AHRouteContent {
+@objcMembers
+class AHRouterContent: NSObject {
     var urlComponents: URLComponents?
     var urlStr: String?
     var queryDic: [String: String] = [:]
-    var itemId: String?
-    var sharedByUserId: String?
     
     init(_ urlStr: String) {
+        super.init()
         self.urlComponents = URLComponents(string: urlStr)
         self.urlStr = urlStr
         self.urlComponents?.queryItems?.forEach {
             self.queryDic[$0.name] = $0.value
         }
-        self.itemId = self.urlComponents?.path.components(separatedBy: "/").last
-        self.sharedByUserId = self.queryDic["shareby"]
     }
 }
+
