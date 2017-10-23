@@ -9,10 +9,10 @@
 import Foundation
 
 public struct AHRouterRegister<T> where T: Routable {
-    public static func regist(scheme: String, host: String) {
-        AHRouter.shared.registeRoute(scheme: scheme, host: host) {
+    public static func regist(scheme: String, host: String, priority: Int = 250) {
+        AHRouter.shared.register(route: AHRoute(scheme, host: host, priority: priority) {
             T.route(content: $0)
-        }
+        })
     }
 }
 

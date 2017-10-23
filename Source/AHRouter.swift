@@ -13,7 +13,7 @@ public protocol Routable: NSObjectProtocol {
     static func route(content: AHRouterContent) -> Bool
 }
 
-class AHRouter {
+public class AHRouter {
     private typealias AHRouteSchemeDictionary = [String: AHRouteHostDictionary]
     private typealias AHRouteHostDictionary = [String: AHRoute]
     private var routSchemeDic: AHRouteSchemeDictionary = [:]
