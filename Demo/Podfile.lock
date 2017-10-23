@@ -10,12 +10,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AHRouter:
-    :commit: 6e34e9e46088c205472c54d772aed2d84610a7ba
+    :commit: 08fc12a4566051f6583c01ce9fe1ab5076ab4772
     :git: https://github.com/IvanGao0217/AHRouter.git
 
 SPEC CHECKSUMS:
   AHRouter: e1dae8b40e67adcf56abcbd08d84bef5f80a0b29
 
-PODFILE CHECKSUM: 7d996b4de20178666b1d19aae185d0c861cffdfc
+PODFILE CHECKSUM: 8d6b3ed0e7bd6bc9ead779140d2d17688f289bee
 
 COCOAPODS: 1.3.1

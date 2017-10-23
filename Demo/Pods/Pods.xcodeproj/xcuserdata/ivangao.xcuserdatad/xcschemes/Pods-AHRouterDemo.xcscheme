@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "25FE9B273CEB224EF7E6D4087FB11F6D"
-               BuildableName = "Pods_AHRouter.framework"
-               BlueprintName = "Pods-AHRouter"
+               BlueprintIdentifier = "12F952D5E71020A56BC962A58B40654A"
+               BuildableName = "Pods_AHRouterDemo.framework"
+               BlueprintName = "Pods-AHRouterDemo"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "25FE9B273CEB224EF7E6D4087FB11F6D"
-            BuildableName = "Pods_AHRouter.framework"
-            BlueprintName = "Pods-AHRouter"
+            BlueprintIdentifier = "12F952D5E71020A56BC962A58B40654A"
+            BuildableName = "Pods_AHRouterDemo.framework"
+            BlueprintName = "Pods-AHRouterDemo"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

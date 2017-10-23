@@ -1,6 +1,0 @@
-framework module Pods_AHRouter {
-  umbrella header "Pods-AHRouter-umbrella.h"
-
-  export *
-  module * { export * }
-}

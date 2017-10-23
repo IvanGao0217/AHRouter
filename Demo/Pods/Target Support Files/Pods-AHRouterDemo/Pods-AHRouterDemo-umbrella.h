@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_AHRouterVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_AHRouterVersionString[];
+FOUNDATION_EXPORT double Pods_AHRouterDemoVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_AHRouterDemoVersionString[];
 

@@ -8,20 +8,16 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
 		</dict>
-		<key>Pods-AHRouter.xcscheme</key>
+		<key>Pods-AHRouterDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>25FE9B273CEB224EF7E6D4087FB11F6D</key>
+		<key>12F952D5E71020A56BC962A58B40654A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
