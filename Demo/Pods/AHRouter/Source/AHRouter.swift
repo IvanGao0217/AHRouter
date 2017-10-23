@@ -9,7 +9,7 @@
 import Foundation
 
 @objc
-protocol Routable: NSObjectProtocol {
+public protocol Routable: NSObjectProtocol {
     static func route(content: AHRouterContent) -> Bool
 }
 

@@ -524,7 +524,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6ES64VS29;
-				INFOPLIST_FILE = AHRouter/Info.plist;
+				INFOPLIST_FILE = AHRouterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ivan.AHRouter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -540,7 +540,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6ES64VS29;
-				INFOPLIST_FILE = AHRouter/Info.plist;
+				INFOPLIST_FILE = AHRouterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ivan.AHRouter;
 				PRODUCT_NAME = "$(TARGET_NAME)";

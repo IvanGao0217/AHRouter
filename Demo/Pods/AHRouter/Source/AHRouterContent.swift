@@ -7,14 +7,13 @@
 //
 
 import Foundation
-
 @objcMembers
-class AHRouterContent: NSObject {
-    var urlComponents: URLComponents?
-    var urlStr: String?
-    var queryDic: [String: String] = [:]
+public class AHRouterContent: NSObject {
+    public var urlComponents: URLComponents?
+    public var urlStr: String?
+    public var queryDic: [String: String] = [:]
     
-    init(_ urlStr: String) {
+    public init(_ urlStr: String) {
         super.init()
         self.urlComponents = URLComponents(string: urlStr)
         self.urlStr = urlStr

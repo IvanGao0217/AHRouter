@@ -12,8 +12,8 @@ import AHRouter
 class AHRouterManager {
     //App初始化时urlHost的注册
     static func startRegist() {
-                AHRouterRegister<BViewController>.regist(.presentViewController)
-                AHRouterRegister<AViewController>.regist(.changeBgColor)
+        AHRouterRegister<BViewController>.regist(scheme: "wealoha", host: "qwe")
+        AHRouterRegister<AViewController>.regist(scheme: "wealoha", host: "qweasd")
     }
     
     //处理url
