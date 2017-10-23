@@ -15,7 +15,7 @@ public protocol Routable: NSObjectProtocol {
 
 class AHRouter {
     private typealias AHRouteSchemeDictionary = [String: AHRouteHostDictionary]
-    private typealias AHRouteHostDictionary = [String: ((AHRouterContent) -> Bool)]
+    private typealias AHRouteHostDictionary = [String: AHRoute]
     private var routSchemeDic: AHRouteSchemeDictionary = [:]
     private var routHostDic: AHRouteHostDictionary = [:]
     
@@ -23,17 +23,31 @@ class AHRouter {
     private init() {
     }
     
-    func registeRoute(scheme: String, host: String, handler: @escaping ((AHRouterContent) -> Bool)) {
-        self.routSchemeDic[scheme] = [host: handler]
+    func register(route: AHRoute) {
+        self.routSchemeDic[route.scheme] = [route.host: route]
     }
     
-    public func shouldMatch(urlStr: String) -> Bool {
+    public func shouldMatch(urlStr: String, minimalPriority: Int) -> Bool {
         if let scheme = URLComponents(string: urlStr)?.scheme,
             let host = URLComponents(string: urlStr)?.host,
-            let handled = self.routSchemeDic[scheme]?[host]?(AHRouterContent(urlStr)) {
-            return handled
+            let priority = self.routSchemeDic[scheme]?[host]?.priority,
+            priority >= minimalPriority {
+            return self.routSchemeDic[scheme]?[host]?.handler(AHRouterContent(urlStr)) ?? false
         }
         return false
     }
 }
 
+class AHRoute {
+    var scheme: String
+    var host: String
+    var handler: ((AHRouterContent) -> Bool)
+    var priority: Int
+    
+    init(_ scheme: String, host: String, priority: Int, handler: @escaping ((AHRouterContent) -> Bool)) {
+        self.scheme = scheme
+        self.host = host
+        self.priority = priority
+        self.handler = handler
+    }
+}
