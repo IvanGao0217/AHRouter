@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C29B15A1F97123900E815C6 /* AHRouterRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C29B1591F97123900E815C6 /* AHRouterRegister.swift */; };
 		2CDEBBE71F95E2E9004B6137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBBE61F95E2E9004B6137 /* AppDelegate.swift */; };
 		2CDEBBE91F95E2E9004B6137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBBE81F95E2E9004B6137 /* ViewController.swift */; };
 		2CDEBBEC1F95E2E9004B6137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEBBEA1F95E2E9004B6137 /* Main.storyboard */; };
@@ -15,11 +14,10 @@
 		2CDEBBF11F95E2E9004B6137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CDEBBEF1F95E2E9004B6137 /* LaunchScreen.storyboard */; };
 		2CDEBBFC1F95E2E9004B6137 /* AHRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBBFB1F95E2E9004B6137 /* AHRouterTests.swift */; };
 		2CDEBC071F95E2E9004B6137 /* AHRouterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC061F95E2E9004B6137 /* AHRouterUITests.swift */; };
-		2CDEBC151F95E32C004B6137 /* AHRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC141F95E32C004B6137 /* AHRouter.swift */; };
-		2CDEBC171F95E36C004B6137 /* AHRouterContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC161F95E36C004B6137 /* AHRouterContent.swift */; };
-		2CDEBC191F95E394004B6137 /* AHRouterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC181F95E394004B6137 /* AHRouterManager.swift */; };
 		2CDEBC1B1F95F530004B6137 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC1A1F95F530004B6137 /* extensions.swift */; };
 		2CDEBC1D1F960007004B6137 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC1C1F960007004B6137 /* BViewController.swift */; };
+		7BC693CFD66CAF82AA88E6DB /* Pods_AHRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5223428BC4E8DB2ABF719E4F /* Pods_AHRouter.framework */; };
+		CF3B3C9F1F9E074D005A3C30 /* AHRouterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3B3C9E1F9E074D005A3C30 /* AHRouterManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,25 +38,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C29B1591F97123900E815C6 /* AHRouterRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouterRegister.swift; sourceTree = "<group>"; };
-		2CDEBBE31F95E2E9004B6137 /* AHRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDEBBE31F95E2E9004B6137 /* AHRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDEBBE61F95E2E9004B6137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CDEBBE81F95E2E9004B6137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CDEBBEB1F95E2E9004B6137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CDEBBED1F95E2E9004B6137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CDEBBF01F95E2E9004B6137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CDEBBF21F95E2E9004B6137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CDEBBF71F95E2E9004B6137 /* AHRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDEBBF71F95E2E9004B6137 /* AHRouterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHRouterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDEBBFB1F95E2E9004B6137 /* AHRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouterTests.swift; sourceTree = "<group>"; };
 		2CDEBBFD1F95E2E9004B6137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CDEBC021F95E2E9004B6137 /* AHRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CDEBC021F95E2E9004B6137 /* AHRouterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHRouterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDEBC061F95E2E9004B6137 /* AHRouterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouterUITests.swift; sourceTree = "<group>"; };
 		2CDEBC081F95E2E9004B6137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CDEBC141F95E32C004B6137 /* AHRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouter.swift; sourceTree = "<group>"; };
-		2CDEBC161F95E36C004B6137 /* AHRouterContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouterContent.swift; sourceTree = "<group>"; };
-		2CDEBC181F95E394004B6137 /* AHRouterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouterManager.swift; sourceTree = "<group>"; };
 		2CDEBC1A1F95F530004B6137 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		2CDEBC1C1F960007004B6137 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		30D836ACCEEF3BDF0ABA0AE8 /* Pods-AHRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHRouter.release.xcconfig"; path = "Pods/Target Support Files/Pods-AHRouter/Pods-AHRouter.release.xcconfig"; sourceTree = "<group>"; };
+		5223428BC4E8DB2ABF719E4F /* Pods_AHRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3B3C9E1F9E074D005A3C30 /* AHRouterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouterManager.swift; sourceTree = "<group>"; };
+		F136C990D148FB494748E40F /* Pods-AHRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHRouter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AHRouter/Pods-AHRouter.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BC693CFD66CAF82AA88E6DB /* Pods_AHRouter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,40 +88,39 @@
 		2CDEBBDA1F95E2E9004B6137 = {
 			isa = PBXGroup;
 			children = (
-				2CDEBBE51F95E2E9004B6137 /* AHRouter */,
+				2CDEBBE51F95E2E9004B6137 /* AHRouterDemo */,
 				2CDEBBFA1F95E2E9004B6137 /* AHRouterTests */,
 				2CDEBC051F95E2E9004B6137 /* AHRouterUITests */,
 				2CDEBBE41F95E2E9004B6137 /* Products */,
+				B919B7843CA0440A3F0F266D /* Pods */,
+				F3C27A5DE2588A344C74645E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		2CDEBBE41F95E2E9004B6137 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CDEBBE31F95E2E9004B6137 /* AHRouter.app */,
-				2CDEBBF71F95E2E9004B6137 /* AHRouterTests.xctest */,
-				2CDEBC021F95E2E9004B6137 /* AHRouterUITests.xctest */,
+				2CDEBBE31F95E2E9004B6137 /* AHRouterDemo.app */,
+				2CDEBBF71F95E2E9004B6137 /* AHRouterDemoTests.xctest */,
+				2CDEBC021F95E2E9004B6137 /* AHRouterDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CDEBBE51F95E2E9004B6137 /* AHRouter */ = {
+		2CDEBBE51F95E2E9004B6137 /* AHRouterDemo */ = {
 			isa = PBXGroup;
 			children = (
 				2CDEBBE61F95E2E9004B6137 /* AppDelegate.swift */,
 				2CDEBBE81F95E2E9004B6137 /* ViewController.swift */,
 				2CDEBC1C1F960007004B6137 /* BViewController.swift */,
 				2CDEBC1A1F95F530004B6137 /* extensions.swift */,
-				2CDEBC141F95E32C004B6137 /* AHRouter.swift */,
-				2CDEBC161F95E36C004B6137 /* AHRouterContent.swift */,
-				2CDEBC181F95E394004B6137 /* AHRouterManager.swift */,
-				2C29B1591F97123900E815C6 /* AHRouterRegister.swift */,
+				CF3B3C9E1F9E074D005A3C30 /* AHRouterManager.swift */,
 				2CDEBBEA1F95E2E9004B6137 /* Main.storyboard */,
 				2CDEBBED1F95E2E9004B6137 /* Assets.xcassets */,
 				2CDEBBEF1F95E2E9004B6137 /* LaunchScreen.storyboard */,
 				2CDEBBF21F95E2E9004B6137 /* Info.plist */,
 			);
-			path = AHRouter;
+			path = AHRouterDemo;
 			sourceTree = "<group>";
 		};
 		2CDEBBFA1F95E2E9004B6137 /* AHRouterTests */ = {
@@ -143,29 +141,49 @@
 			path = AHRouterUITests;
 			sourceTree = "<group>";
 		};
+		B919B7843CA0440A3F0F266D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F136C990D148FB494748E40F /* Pods-AHRouter.debug.xcconfig */,
+				30D836ACCEEF3BDF0ABA0AE8 /* Pods-AHRouter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3C27A5DE2588A344C74645E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5223428BC4E8DB2ABF719E4F /* Pods_AHRouter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CDEBBE21F95E2E9004B6137 /* AHRouter */ = {
+		2CDEBBE21F95E2E9004B6137 /* AHRouterDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CDEBC0B1F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouter" */;
+			buildConfigurationList = 2CDEBC0B1F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouterDemo" */;
 			buildPhases = (
+				3951519DFD8B4FE922427125 /* [CP] Check Pods Manifest.lock */,
 				2CDEBBDF1F95E2E9004B6137 /* Sources */,
 				2CDEBBE01F95E2E9004B6137 /* Frameworks */,
 				2CDEBBE11F95E2E9004B6137 /* Resources */,
+				159F1A45F066A66E8D22418D /* [CP] Embed Pods Frameworks */,
+				D4CF0498D57246045A654A18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AHRouter;
+			name = AHRouterDemo;
 			productName = AHRouter;
-			productReference = 2CDEBBE31F95E2E9004B6137 /* AHRouter.app */;
+			productReference = 2CDEBBE31F95E2E9004B6137 /* AHRouterDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2CDEBBF61F95E2E9004B6137 /* AHRouterTests */ = {
+		2CDEBBF61F95E2E9004B6137 /* AHRouterDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CDEBC0E1F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouterTests" */;
+			buildConfigurationList = 2CDEBC0E1F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouterDemoTests" */;
 			buildPhases = (
 				2CDEBBF31F95E2E9004B6137 /* Sources */,
 				2CDEBBF41F95E2E9004B6137 /* Frameworks */,
@@ -176,14 +194,14 @@
 			dependencies = (
 				2CDEBBF91F95E2E9004B6137 /* PBXTargetDependency */,
 			);
-			name = AHRouterTests;
+			name = AHRouterDemoTests;
 			productName = AHRouterTests;
-			productReference = 2CDEBBF71F95E2E9004B6137 /* AHRouterTests.xctest */;
+			productReference = 2CDEBBF71F95E2E9004B6137 /* AHRouterDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2CDEBC011F95E2E9004B6137 /* AHRouterUITests */ = {
+		2CDEBC011F95E2E9004B6137 /* AHRouterDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CDEBC111F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouterUITests" */;
+			buildConfigurationList = 2CDEBC111F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouterDemoUITests" */;
 			buildPhases = (
 				2CDEBBFE1F95E2E9004B6137 /* Sources */,
 				2CDEBBFF1F95E2E9004B6137 /* Frameworks */,
@@ -194,9 +212,9 @@
 			dependencies = (
 				2CDEBC041F95E2E9004B6137 /* PBXTargetDependency */,
 			);
-			name = AHRouterUITests;
+			name = AHRouterDemoUITests;
 			productName = AHRouterUITests;
-			productReference = 2CDEBC021F95E2E9004B6137 /* AHRouterUITests.xctest */;
+			productReference = 2CDEBC021F95E2E9004B6137 /* AHRouterDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +243,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2CDEBBDE1F95E2E9004B6137 /* Build configuration list for PBXProject "AHRouter" */;
+			buildConfigurationList = 2CDEBBDE1F95E2E9004B6137 /* Build configuration list for PBXProject "AHRouterDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -238,9 +256,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CDEBBE21F95E2E9004B6137 /* AHRouter */,
-				2CDEBBF61F95E2E9004B6137 /* AHRouterTests */,
-				2CDEBC011F95E2E9004B6137 /* AHRouterUITests */,
+				2CDEBBE21F95E2E9004B6137 /* AHRouterDemo */,
+				2CDEBBF61F95E2E9004B6137 /* AHRouterDemoTests */,
+				2CDEBC011F95E2E9004B6137 /* AHRouterDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,17 +290,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		159F1A45F066A66E8D22418D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AHRouter/Pods-AHRouter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AHRouter/AHRouter.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AHRouter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHRouter/Pods-AHRouter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3951519DFD8B4FE922427125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AHRouter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4CF0498D57246045A654A18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHRouter/Pods-AHRouter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2CDEBBDF1F95E2E9004B6137 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C29B15A1F97123900E815C6 /* AHRouterRegister.swift in Sources */,
+				CF3B3C9F1F9E074D005A3C30 /* AHRouterManager.swift in Sources */,
 				2CDEBC1D1F960007004B6137 /* BViewController.swift in Sources */,
-				2CDEBC191F95E394004B6137 /* AHRouterManager.swift in Sources */,
 				2CDEBBE91F95E2E9004B6137 /* ViewController.swift in Sources */,
-				2CDEBC171F95E36C004B6137 /* AHRouterContent.swift in Sources */,
-				2CDEBC151F95E32C004B6137 /* AHRouter.swift in Sources */,
 				2CDEBBE71F95E2E9004B6137 /* AppDelegate.swift in Sources */,
 				2CDEBC1B1F95F530004B6137 /* extensions.swift in Sources */,
 			);
@@ -309,12 +378,12 @@
 /* Begin PBXTargetDependency section */
 		2CDEBBF91F95E2E9004B6137 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2CDEBBE21F95E2E9004B6137 /* AHRouter */;
+			target = 2CDEBBE21F95E2E9004B6137 /* AHRouterDemo */;
 			targetProxy = 2CDEBBF81F95E2E9004B6137 /* PBXContainerItemProxy */;
 		};
 		2CDEBC041F95E2E9004B6137 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2CDEBBE21F95E2E9004B6137 /* AHRouter */;
+			target = 2CDEBBE21F95E2E9004B6137 /* AHRouterDemo */;
 			targetProxy = 2CDEBC031F95E2E9004B6137 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -450,6 +519,7 @@
 		};
 		2CDEBC0C1F95E2E9004B6137 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F136C990D148FB494748E40F /* Pods-AHRouter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +535,7 @@
 		};
 		2CDEBC0D1F95E2E9004B6137 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D836ACCEEF3BDF0ABA0AE8 /* Pods-AHRouter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -491,7 +562,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHRouter.app/AHRouter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHRouterDemo.app/AHRouterDemo";
 			};
 			name = Debug;
 		};
@@ -508,7 +579,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHRouter.app/AHRouter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHRouterDemo.app/AHRouterDemo";
 			};
 			name = Release;
 		};
@@ -547,7 +618,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CDEBBDE1F95E2E9004B6137 /* Build configuration list for PBXProject "AHRouter" */ = {
+		2CDEBBDE1F95E2E9004B6137 /* Build configuration list for PBXProject "AHRouterDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CDEBC091F95E2E9004B6137 /* Debug */,
@@ -556,7 +627,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CDEBC0B1F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouter" */ = {
+		2CDEBC0B1F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouterDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CDEBC0C1F95E2E9004B6137 /* Debug */,
@@ -565,7 +636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CDEBC0E1F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouterTests" */ = {
+		2CDEBC0E1F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouterDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CDEBC0F1F95E2E9004B6137 /* Debug */,
@@ -574,7 +645,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CDEBC111F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouterUITests" */ = {
+		2CDEBC111F95E2E9004B6137 /* Build configuration list for PBXNativeTarget "AHRouterDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CDEBC121F95E2E9004B6137 /* Debug */,

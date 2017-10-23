@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		734856456ABEF13A7A122CC6901C1CD3 /* Pods-AHRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C1EE778C176DE3BFA5F59E7D442484 /* Pods-AHRouter-dummy.m */; };
+		91B3C1F71DB71DC92AA5A5B597A7104C /* AHRouterContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481215865E1CA4D29D5D7FE3C2E0B737 /* AHRouterContent.swift */; };
+		95F0E95868F649697B75D27FFA7395BB /* AHRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5AD42F753D1EDB6F0A5396DF25B0782 /* AHRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E082C60066527E87FEE4426ECB04EDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9F9EC480BDC0FCBF0AF1901B68D2503E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A4916CB9E1A07C6F27800D4F338E4776 /* AHRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9390E0AEFF678A4F867277BAAA25AA3 /* AHRouter.swift */; };
+		CAC71B620014E222D56F0AA5782AA39F /* AHRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B86AAFAA7EEE255F1D8B301EB392439 /* AHRouter-dummy.m */; };
+		EF10ABDB63DC68544B38380F0B198D6E /* AHRouterRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115D9D0D18FFA6B014956BDDB8605159 /* AHRouterRegister.swift */; };
+		F0DADBAEB180BD6937E7A54873872744 /* Pods-AHRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4FA9FCB164F132FE88A3FB9E6AC4DC /* Pods-AHRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		626F04FC98925F8C0371DBD777194AC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C22D1B733B6C8F1DD9CD6A08A87DA2FE;
+			remoteInfo = AHRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F6E26898A62A99E76C0FC2BAEA3213 /* AHRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AHRouter.modulemap; sourceTree = "<group>"; };
+		115D9D0D18FFA6B014956BDDB8605159 /* AHRouterRegister.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AHRouterRegister.swift; path = Source/AHRouterRegister.swift; sourceTree = "<group>"; };
+		1DB2932F95F00C5559EA47D90A9FDA77 /* AHRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AHRouter.framework; path = AHRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28601D84EE520371DC93A2F6AFC748CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F79D6FBCA755A8E9A897B4E3BBDFAFE /* Pods-AHRouter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHRouter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4555833D5505EF9A12F924C9C8B21A2F /* AHRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHRouter-prefix.pch"; sourceTree = "<group>"; };
+		481215865E1CA4D29D5D7FE3C2E0B737 /* AHRouterContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AHRouterContent.swift; path = Source/AHRouterContent.swift; sourceTree = "<group>"; };
+		5B86AAFAA7EEE255F1D8B301EB392439 /* AHRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHRouter-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78DC4784209D73AA76F930F39C8AC65B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82C0AAAF45FB464896B4B9F1F0C90331 /* Pods-AHRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AHRouter.modulemap"; sourceTree = "<group>"; };
+		83C1EE778C176DE3BFA5F59E7D442484 /* Pods-AHRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHRouter-dummy.m"; sourceTree = "<group>"; };
+		8FC73BEC4CFE5CAB757C124D18C3463D /* Pods-AHRouter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHRouter-resources.sh"; sourceTree = "<group>"; };
+		937DDDBDB4DA662AADA3ABAE892AC7CD /* Pods-AHRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHRouter.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9907CF0CD67BB88B138CA86B71F96717 /* AHRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHRouter.xcconfig; sourceTree = "<group>"; };
+		BC38FE8216AFFD60C8792B5198F59142 /* Pods_AHRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHRouter.framework; path = "Pods-AHRouter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9390E0AEFF678A4F867277BAAA25AA3 /* AHRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AHRouter.swift; path = Source/AHRouter.swift; sourceTree = "<group>"; };
+		D5AD42F753D1EDB6F0A5396DF25B0782 /* AHRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHRouter-umbrella.h"; sourceTree = "<group>"; };
+		DF1998557060A8C5989DAAEFAFF6E54A /* Pods-AHRouter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHRouter-acknowledgements.plist"; sourceTree = "<group>"; };
+		E339816832DAE78365773FADD5DCD5B1 /* Pods-AHRouter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHRouter-frameworks.sh"; sourceTree = "<group>"; };
+		E4F61BD404F314F8E3901B64AF097A46 /* Pods-AHRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHRouter.release.xcconfig"; sourceTree = "<group>"; };
+		EA4FA9FCB164F132FE88A3FB9E6AC4DC /* Pods-AHRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHRouter-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E1F7BC116DAC7424F9B4AD75B753146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9EC480BDC0FCBF0AF1901B68D2503E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715424D59C4CC0D024B7120EFC00A331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E082C60066527E87FEE4426ECB04EDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2209DBD5926D142D8B6131764B6D4EE3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F6E26898A62A99E76C0FC2BAEA3213 /* AHRouter.modulemap */,
+				9907CF0CD67BB88B138CA86B71F96717 /* AHRouter.xcconfig */,
+				5B86AAFAA7EEE255F1D8B301EB392439 /* AHRouter-dummy.m */,
+				4555833D5505EF9A12F924C9C8B21A2F /* AHRouter-prefix.pch */,
+				D5AD42F753D1EDB6F0A5396DF25B0782 /* AHRouter-umbrella.h */,
+				28601D84EE520371DC93A2F6AFC748CA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AHRouter";
+			sourceTree = "<group>";
+		};
+		2C06E929EDDDA81F0FBB44BF2A0701BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40768DF8D576CD02DA1B2B2EB4BEA7D3 /* Pods-AHRouter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		33C4EDCDF80B392B00E49D0BD3531C22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FB8FFE6B0E7C4488FB373A575E5F3A3 /* AHRouter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		40768DF8D576CD02DA1B2B2EB4BEA7D3 /* Pods-AHRouter */ = {
+			isa = PBXGroup;
+			children = (
+				78DC4784209D73AA76F930F39C8AC65B /* Info.plist */,
+				82C0AAAF45FB464896B4B9F1F0C90331 /* Pods-AHRouter.modulemap */,
+				3F79D6FBCA755A8E9A897B4E3BBDFAFE /* Pods-AHRouter-acknowledgements.markdown */,
+				DF1998557060A8C5989DAAEFAFF6E54A /* Pods-AHRouter-acknowledgements.plist */,
+				83C1EE778C176DE3BFA5F59E7D442484 /* Pods-AHRouter-dummy.m */,
+				E339816832DAE78365773FADD5DCD5B1 /* Pods-AHRouter-frameworks.sh */,
+				8FC73BEC4CFE5CAB757C124D18C3463D /* Pods-AHRouter-resources.sh */,
+				EA4FA9FCB164F132FE88A3FB9E6AC4DC /* Pods-AHRouter-umbrella.h */,
+				937DDDBDB4DA662AADA3ABAE892AC7CD /* Pods-AHRouter.debug.xcconfig */,
+				E4F61BD404F314F8E3901B64AF097A46 /* Pods-AHRouter.release.xcconfig */,
+			);
+			name = "Pods-AHRouter";
+			path = "Target Support Files/Pods-AHRouter";
+			sourceTree = "<group>";
+		};
+		57E21096920C3E149E4ACA60AC7DF9C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2932F95F00C5559EA47D90A9FDA77 /* AHRouter.framework */,
+				BC38FE8216AFFD60C8792B5198F59142 /* Pods_AHRouter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FB8FFE6B0E7C4488FB373A575E5F3A3 /* AHRouter */ = {
+			isa = PBXGroup;
+			children = (
+				C9390E0AEFF678A4F867277BAAA25AA3 /* AHRouter.swift */,
+				481215865E1CA4D29D5D7FE3C2E0B737 /* AHRouterContent.swift */,
+				115D9D0D18FFA6B014956BDDB8605159 /* AHRouterRegister.swift */,
+				2209DBD5926D142D8B6131764B6D4EE3 /* Support Files */,
+			);
+			name = AHRouter;
+			path = AHRouter;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				33C4EDCDF80B392B00E49D0BD3531C22 /* Pods */,
+				57E21096920C3E149E4ACA60AC7DF9C5 /* Products */,
+				2C06E929EDDDA81F0FBB44BF2A0701BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A0A0C32648B26AD9D4E6645FCCF75D10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F0E95868F649697B75D27FFA7395BB /* AHRouter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D5F490E260BB4D3EDEC1DF60124F32 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DADBAEB180BD6937E7A54873872744 /* Pods-AHRouter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25FE9B273CEB224EF7E6D4087FB11F6D /* Pods-AHRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160366A600C4BF4278FC058973D2F120 /* Build configuration list for PBXNativeTarget "Pods-AHRouter" */;
+			buildPhases = (
+				0146917FEC8E22F15780746DE8765759 /* Sources */,
+				715424D59C4CC0D024B7120EFC00A331 /* Frameworks */,
+				F1D5F490E260BB4D3EDEC1DF60124F32 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD36F220FAF4FEF25C24C024BA523FA /* PBXTargetDependency */,
+			);
+			name = "Pods-AHRouter";
+			productName = "Pods-AHRouter";
+			productReference = BC38FE8216AFFD60C8792B5198F59142 /* Pods_AHRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C22D1B733B6C8F1DD9CD6A08A87DA2FE /* AHRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66905ED7B92D72219A81229F0E353CCF /* Build configuration list for PBXNativeTarget "AHRouter" */;
+			buildPhases = (
+				4B6274326928908EBB921D00D1C03D31 /* Sources */,
+				2E1F7BC116DAC7424F9B4AD75B753146 /* Frameworks */,
+				A0A0C32648B26AD9D4E6645FCCF75D10 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHRouter;
+			productName = AHRouter;
+			productReference = 1DB2932F95F00C5559EA47D90A9FDA77 /* AHRouter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 57E21096920C3E149E4ACA60AC7DF9C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C22D1B733B6C8F1DD9CD6A08A87DA2FE /* AHRouter */,
+				25FE9B273CEB224EF7E6D4087FB11F6D /* Pods-AHRouter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0146917FEC8E22F15780746DE8765759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734856456ABEF13A7A122CC6901C1CD3 /* Pods-AHRouter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6274326928908EBB921D00D1C03D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC71B620014E222D56F0AA5782AA39F /* AHRouter-dummy.m in Sources */,
+				A4916CB9E1A07C6F27800D4F338E4776 /* AHRouter.swift in Sources */,
+				91B3C1F71DB71DC92AA5A5B597A7104C /* AHRouterContent.swift in Sources */,
+				EF10ABDB63DC68544B38380F0B198D6E /* AHRouterRegister.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABD36F220FAF4FEF25C24C024BA523FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AHRouter;
+			target = C22D1B733B6C8F1DD9CD6A08A87DA2FE /* AHRouter */;
+			targetProxy = 626F04FC98925F8C0371DBD777194AC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		79396E9FEBD3A4396446D190FCC5BDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F61BD404F314F8E3901B64AF097A46 /* Pods-AHRouter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AHRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHRouter/Pods-AHRouter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF5B9C1DA3542F702A230DE29F01005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9907CF0CD67BB88B138CA86B71F96717 /* AHRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AHRouter/AHRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHRouter/AHRouter.modulemap";
+				PRODUCT_NAME = AHRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1BD0EB61EFCAA680B96C259544C69EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 937DDDBDB4DA662AADA3ABAE892AC7CD /* Pods-AHRouter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AHRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHRouter/Pods-AHRouter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7FA68E4F6840894765BC706954490E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9907CF0CD67BB88B138CA86B71F96717 /* AHRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AHRouter/AHRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHRouter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHRouter/AHRouter.modulemap";
+				PRODUCT_NAME = AHRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		160366A600C4BF4278FC058973D2F120 /* Build configuration list for PBXNativeTarget "Pods-AHRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BD0EB61EFCAA680B96C259544C69EC /* Debug */,
+				79396E9FEBD3A4396446D190FCC5BDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66905ED7B92D72219A81229F0E353CCF /* Build configuration list for PBXNativeTarget "AHRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7FA68E4F6840894765BC706954490E4 /* Debug */,
+				7EF5B9C1DA3542F702A230DE29F01005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

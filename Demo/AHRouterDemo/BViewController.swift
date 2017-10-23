@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import AHRouter
 
 class BViewController: UIViewController {
     static func showBViewController() -> Bool {
@@ -21,12 +22,12 @@ class BViewController: UIViewController {
     }
 }
 
-//extension BViewController: Routable {
-//    static func route(content: AHRouteContent) -> Bool {
-//        if let targetViewController = content.queryDic["targetVC"], targetViewController == "B" {
-//            return BViewController.showBViewController()
-//        }
-//        return false
-//    }
-//}
+extension BViewController: Routable {
+    static func route(content: AHRouteContent) -> Bool {
+        if let targetViewController = content.queryDic["targetVC"], targetViewController == "B" {
+            return BViewController.showBViewController()
+        }
+        return false
+    }
+}
 

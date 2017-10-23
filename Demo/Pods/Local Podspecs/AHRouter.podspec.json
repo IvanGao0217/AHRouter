@@ -1,0 +1,28 @@
+{
+  "name": "AHRouter",
+  "version": "1.0",
+  "license": "MIT",
+  "summary": "A Simple Router in Swift",
+  "homepage": "https://github.com/IvanGao0217/AHRouter",
+  "social_media_url": "https://github.com/IvanGao0217/AHRouter",
+  "authors": [
+    "Ivan Gao",
+    {
+      "Ivan Gao": "Ivangao0217@gmail.com"
+    }
+  ],
+  "source": {
+    "git": "https://github.com/IvanGao0217/AHRouter.git",
+    "tag": "1.0"
+  },
+  "platforms": {
+    "ios": "8.0",
+    "osx": "10.11",
+    "tvos": "9.0",
+    "watchos": "2.0"
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.0"
+  },
+  "source_files": "Source/*.swift"
+}
