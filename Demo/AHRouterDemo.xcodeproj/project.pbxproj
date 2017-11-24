@@ -17,7 +17,6 @@
 		2CDEBC1B1F95F530004B6137 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC1A1F95F530004B6137 /* extensions.swift */; };
 		2CDEBC1D1F960007004B6137 /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDEBC1C1F960007004B6137 /* BViewController.swift */; };
 		2DA546586AFB6F142D978125 /* Pods_AHRouterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BD3A1D536F37A39D9E2A4B /* Pods_AHRouterDemo.framework */; };
-		7BC693CFD66CAF82AA88E6DB /* Pods_AHRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5223428BC4E8DB2ABF719E4F /* Pods_AHRouter.framework */; };
 		CF3B3C9F1F9E074D005A3C30 /* AHRouterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3B3C9E1F9E074D005A3C30 /* AHRouterManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +56,6 @@
 		2CDEBC1C1F960007004B6137 /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
 		30D836ACCEEF3BDF0ABA0AE8 /* Pods-AHRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHRouter.release.xcconfig"; path = "Pods/Target Support Files/Pods-AHRouter/Pods-AHRouter.release.xcconfig"; sourceTree = "<group>"; };
 		3FB99C5D97898D3AC897D6E6 /* Pods-AHRouterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHRouterDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AHRouterDemo/Pods-AHRouterDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		5223428BC4E8DB2ABF719E4F /* Pods_AHRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B452F6DAC5C84C1098EA2321 /* Pods-AHRouterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHRouterDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AHRouterDemo/Pods-AHRouterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CF3B3C9E1F9E074D005A3C30 /* AHRouterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHRouterManager.swift; sourceTree = "<group>"; };
 		F136C990D148FB494748E40F /* Pods-AHRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHRouter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AHRouter/Pods-AHRouter.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BC693CFD66CAF82AA88E6DB /* Pods_AHRouter.framework in Frameworks */,
 				2DA546586AFB6F142D978125 /* Pods_AHRouterDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,7 +157,6 @@
 		F3C27A5DE2588A344C74645E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5223428BC4E8DB2ABF719E4F /* Pods_AHRouter.framework */,
 				29BD3A1D536F37A39D9E2A4B /* Pods_AHRouterDemo.framework */,
 			);
 			name = Frameworks;
