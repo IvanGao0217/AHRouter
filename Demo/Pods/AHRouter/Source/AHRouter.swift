@@ -6,8 +6,6 @@
 //  Copyright © 2017 IvanGao. All rights reserved.
 //
 
-import Foundation
-
 @objc
 public protocol Routable: NSObjectProtocol {
     static func route(content: AHRouterContent) -> Bool
@@ -27,11 +25,9 @@ public class AHRouter {
         self.routSchemeDic[route.scheme] = [route.host: route]
     }
     
-    public func shouldMatch(urlStr: String, minimalPriority: Int) -> Bool {
+    public func shouldMatch(urlStr: String) -> Bool {
         if let scheme = URLComponents(string: urlStr)?.scheme,
-            let host = URLComponents(string: urlStr)?.host,
-            let priority = self.routSchemeDic[scheme]?[host]?.priority,
-            priority >= minimalPriority {
+            let host = URLComponents(string: urlStr)?.host {
             return self.routSchemeDic[scheme]?[host]?.handler(AHRouterContent(urlStr)) ?? false
         }
         return false
@@ -42,12 +38,10 @@ class AHRoute {
     var scheme: String
     var host: String
     var handler: ((AHRouterContent) -> Bool)
-    var priority: Int
     
-    init(_ scheme: String, host: String, priority: Int, handler: @escaping ((AHRouterContent) -> Bool)) {
+    init(_ scheme: String, host: String, handler: @escaping ((AHRouterContent) -> Bool)) {
         self.scheme = scheme
         self.host = host
-        self.priority = priority
         self.handler = handler
     }
 }

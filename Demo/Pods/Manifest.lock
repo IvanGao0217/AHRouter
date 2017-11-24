@@ -10,7 +10,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   AHRouter:
-    :commit: a810338e44a80c71a7cdb987df8b6415b2f092f0
+    :commit: 74f0ba201ef607640a940d6cdffe6a3e711e2416
     :git: https://github.com/IvanGao0217/AHRouter.git
 
 SPEC CHECKSUMS:
