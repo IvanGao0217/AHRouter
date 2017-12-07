@@ -7,7 +7,7 @@
 //
 
 public struct AHRouterRegister<T> where T: Routable {
-    public static func regist(scheme: String, host: String) {
+    public static func route(scheme: String, host: String) {
         AHRouter.shared.register(route: AHRoute(scheme, host: host) {
             T.route(content: $0)
         })

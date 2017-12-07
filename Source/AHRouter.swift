@@ -12,23 +12,32 @@ public protocol Routable: NSObjectProtocol {
 }
 
 public class AHRouter {
-    private typealias AHRouteSchemeDictionary = [String: AHRouteHostDictionary]
+    private typealias AHRouteSchemeDictionary = [String: [AHRouteHostDictionary]]
     private typealias AHRouteHostDictionary = [String: AHRoute]
     private var routSchemeDic: AHRouteSchemeDictionary = [:]
     private var routHostDic: AHRouteHostDictionary = [:]
-    
     public static let shared = AHRouter()
+    
     private init() {
     }
     
     func register(route: AHRoute) {
-        self.routSchemeDic[route.scheme] = [route.host: route]
+        if self.routSchemeDic[route.scheme] == nil {
+            self.routSchemeDic[route.scheme] = []
+        }
+        self.routSchemeDic[route.scheme]?.append([route.host: route])
     }
     
     public func shouldMatch(urlStr: String) -> Bool {
         if let scheme = URLComponents(string: urlStr)?.scheme,
             let host = URLComponents(string: urlStr)?.host {
-            return self.routSchemeDic[scheme]?[host]?.handler(AHRouterContent(urlStr)) ?? false
+            var handled = false
+            self.routSchemeDic[scheme]?.forEach { item in
+                if item[host]?.handler(AHRouterContent(urlStr)) ?? false {
+                    handled = true
+                }
+            }
+            return handled
         }
         return false
     }
@@ -45,3 +54,4 @@ class AHRoute {
         self.handler = handler
     }
 }
+
