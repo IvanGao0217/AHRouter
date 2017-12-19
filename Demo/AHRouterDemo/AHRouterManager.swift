@@ -10,16 +10,12 @@ import Foundation
 import AHRouter
 
 class AHRouterManager {
-    //App初始化时urlHost的注册
-    static func startRegist() {
-        AHRouterRegister<BViewController>.regist(scheme: "wealoha", host: "qwe")
-        AHRouterRegister<AViewController>.regist(scheme: "wealoha", host: "qweasd")
+    static func startRegister() {
+        AHRouterRegister<BViewController>.register(scheme: "wealoha", host: "qwe")
+        AHRouterRegister<AViewController>.register(scheme: "wealoha", host: "qweasd")
     }
     
-    //处理url
     static func shouldHandled(urlStr: String) -> Bool {
-        return false
+        return AHRouteMap.shared.shouldMatch(urlStr: urlStr)
     }
 }
-
-

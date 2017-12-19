@@ -23,8 +23,8 @@ class BViewController: UIViewController {
 }
 
 extension BViewController: Routable {
-    static func route(content: AHRouterContent) -> Bool {
-        if let targetViewController = content.queryDic["targetVC"], targetViewController == "B" {
+    static func route(content: AHRouteContent) -> Bool {
+        if let targetViewController = content.queryDictionary["targetVC"], targetViewController == "B" {
             return BViewController.showBViewController()
         }
         return false
